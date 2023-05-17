@@ -1,5 +1,7 @@
 # telegrambot-usdttrx-exchange
 自动兑换trx-usdt的电报机器人
+
+git clone https://github.com/xiaobai2023123412412343/cc.git
 ## 实时预览
 兑币机1.0版本 [@duibiji_bot](https://t.me/duibiji_bot)<br>
 兑币机2.0版本 [@shandui2bot](https://t.me/shandui2bot)
