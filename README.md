@@ -27,3 +27,15 @@ var mode = "main"//网络选择 main:主网 nile:nile网
 ## 私人定制
 Telegram：[@byprogram](https://t.me/byprogram)<br>
 主页：[点击查看](https://www.byprogram.xyz/)
+
+登录数据库 mysql -u root -p
+
+CREATE USER 'tgexchange'@'localhost' IDENTIFIED BY 'tgexchange';
+
+CREATE DATABASE tgexchange;
+
+GRANT ALL PRIVILEGES ON shandui.* TO 'tgexchange'@'localhost';
+
+FLUSH PRIVILEGES;
+
+exit;
