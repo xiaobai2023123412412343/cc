@@ -39,3 +39,5 @@ GRANT ALL PRIVILEGES ON shandui.* TO 'tgexchange'@'localhost';
 FLUSH PRIVILEGES;
 
 exit;
+
+mysql -u tgexchange-p tgexchange< ./tgexchange.sql
