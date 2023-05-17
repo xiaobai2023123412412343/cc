@@ -40,4 +40,5 @@ FLUSH PRIVILEGES;
 
 exit;
 
-mysql -u tgexchange-p tgexchange< ./tgexchange.sql
+mysql -u tgexchange -p tgexchange < ./tgexchange.sql
+
